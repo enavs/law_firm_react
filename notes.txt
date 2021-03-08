@@ -1,0 +1,13 @@
+{% comment %} go to folder and use this code in the terminal to create the outline for react {% endcomment %}
+npx create-react-app myfirstreactapp
+
+{% comment %} this will install the appropriate packages for you {% endcomment %}
+npm install
+{% comment %} or  {% endcomment %}
+npm install react-router-dom --save
+
+{% comment %} i belive this saves all of your installed packages so that other people can use them {% endcomment %}
+npm install react-router-dom --save
+
+{% comment %} this runs the program {% endcomment %}
+npm start

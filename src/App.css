@@ -1,0 +1,392 @@
+/* Background */
+.background-pic {
+  background-image: url("../../lawfirmreactproject/src/images/wood_background.jpeg");
+}
+
+.small-background-pic {
+  background-color: white;
+  /* margin: 500px; */
+}
+
+
+
+/* Add a heart before links */
+
+
+/* Navbar section */
+.navy-bary {
+  margin: 15px;
+
+  color: black;
+  text-transform: uppercase;
+  
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+
+}
+
+.nav-bar_ul {
+  text-align: center;
+  justify-content: center;
+}
+
+
+/* Navfooter */
+.navy-footy {
+  color: black;
+  text-transform: uppercase;
+  
+
+}
+
+.navy-footy-top-borderline {
+  font-size: 15px;
+  border-top: 3px solid black;
+  margin: 15px;
+}
+
+/* A link that has not been visited */
+a:link {
+  color: black;
+}
+/* A link that has been visited */
+a:visited {
+  color: black;
+}
+/* A link that is hovered on */
+a:hover {
+  color: black;
+}
+/* A link that is selected */
+a:active {
+  color: black;
+}
+
+.login-button {
+  background-color: lightgray;
+  color: white;
+  border: 0ch;
+  position: absolute;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+.navbar-company-logo {
+  width: 400px;
+  height: 100px;
+}
+.words-in-logo-pic {
+  text-transform: uppercase;
+  position: absolute;
+  text-align: left;
+  top: 75%;
+  left: 29%; 
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: "Lucida Console", "Monaco", monospace;
+  font-size: 45px;
+}
+
+/* Who Section */
+.forest-logo {
+  border-style: double;
+  margin: auto;
+  padding: 1px;
+}
+
+.words-in-picture {
+  text-transform: uppercase;
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Lucida Console", "Monaco", monospace;
+  font-size: 30px;
+  border-bottom: 1px solid white;
+}
+
+.scroll-box {
+  width:300px;
+  height:465px;
+  overflow:scroll;
+  padding:5px;
+  /* background-color:red; */
+  color:white;
+  background-image: linear-gradient(180deg, rgb(153, 5, 5), rgb(85, 3, 3));
+
+}
+
+.top-of-red-box {
+  font-size: 20px;
+}
+
+
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+.news-feed-text {
+  margin: 15px;
+}
+
+.top-who-box {
+  margin: 15px;
+  margin-top: 20px;
+}
+
+.bottom-who-box {
+  margin: 15px;
+}
+
+
+/* What Section */
+.subrogation-logo {
+  border-style: double;
+  height: 130px;
+  /* width: 360px; */
+  margin: 5px;
+  padding: 1px;
+}
+
+.litigation-logo {
+  border-style: double;
+  height: 130px;
+  /* width: 360px; */
+  margin: 5px;
+  padding: 1px;
+
+}
+
+.business-logo {
+  border-style: double;
+  height: 130px;
+  /* width: 360px; */
+  margin: 5px;
+  padding: 1px;
+
+}
+.transportation-logo {
+  border-style: double;
+  height: 130px;
+  /* width: 360px; */
+  margin: 5px;
+  padding: 1px;
+
+    /* width of container */
+  /* width: 200px;  */
+
+    /* height of container */
+    object-fit: cover;
+
+}
+
+.words-in-picture-4-pics {
+  text-transform: uppercase;
+  position: absolute;
+  /* text-align: left; */
+
+  bottom: 20px;
+  left: 70px;
+
+  /* top: 75%; */
+  /* left: 40%;  */
+  /* transform: translate(-50%, -50%); */
+  color: lightgray;
+  font-family: "Lucida Console", "Monaco", monospace;
+  font-size: 20px;
+}
+
+.container {
+  position: relative
+}
+
+.what-we-do-box {
+  /* width:300px;
+  height:1000px; */
+  margin-left: 15px;
+  padding:5px;
+  color:white;
+  background-image: linear-gradient(180deg, rgb(153, 5, 5), rgb(85, 3, 3));
+}
+
+.leather_chairs {
+  border: 1px solid white;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+.list-bullet-removed {
+  list-style-type: none;
+  margin: 5px;
+  padding: 10px
+}
+
+
+/* Where we are Section */
+.chicago {
+  border: 1px solid white;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+.where-box {
+  margin-left: 15px;
+
+  padding:5px;
+  color:white;
+  background-image: linear-gradient(180deg, rgb(153, 5, 5), rgb(85, 3, 3));
+}
+
+/* Contact Section */
+.email-link {
+  color: blue
+  
+}
+
+
+.where-text {
+  margin-bottom: 15px;
+}
+
+.contact-box {
+  margin-left: 15px;
+  padding:5px;
+  color:white;
+  background-image: linear-gradient(180deg, rgb(153, 5, 5), rgb(85, 3, 3));
+}
+
+
+.contact-location-box {
+  padding:20px;
+  color:black;
+  background-color: #DBD3CB;
+  margin-right: 15px;
+}
+
+.bold-red-text {
+  color:rgb(121, 17, 17);
+}
+
+.telephone {
+  /* width: 350px; */
+  /* max-height: 100px; */
+  /* overflow: hidden; */
+  border-style: double;
+  margin-bottom: 15px;
+  padding: 1px;
+
+  /* width of container */
+  /* width: 200px;  */
+
+    /* height of container */
+  height: 180px; 
+  object-fit: cover;
+}
+
+
+.words-in-telephone-pic {
+  text-transform: uppercase;
+  position: absolute;
+  text-align: left;
+  top: 75%;
+  left: 25%; 
+  transform: translate(-50%, -50%);
+  color: lightgray;
+  font-family: "Lucida Console", "Monaco", monospace;
+  font-size: 20px;
+}
+
+.glasses {
+  border: 1px solid white;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.map {
+  border: 1px solid black;
+  padding: 0px;
+  margin-bottom: 10px;
+
+}
+
+.chess {
+  border: 1px solid black;
+  padding: 0px;
+  margin-bottom: 10px;
+
+}
+
+
+
+/**
+ * Horizontal Type Line Behind Text
+ * Inspired by this discussion @ CSS-Tricks: http://css-tricks.com/forums/discussion/comment/51357#Comment_51357
+ * Available on jsFiddle: http://jsfiddle.net/ericrasch/jAXXA/
+ * Available on Dabblet: http://dabblet.com/gist/2045198
+ * Available on GitHub Gist: https://gist.github.com/2045198
+ */
+
+
+
+ 
+
+
+ 
+ .stuff-footer {
+  font: 12px sans-serif;
+  margin-top: 5px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.stuff-footer:before {
+  border-top: 2px solid #dfdfdf;
+  content:"";
+  margin: 0 auto; /* this centers the line to the full width specified */
+  position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+  top: 15px; left: 0; right: 0; bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+
+.stuff-footer span { 
+  /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+  background: #fff; 
+  padding: 0 15px; 
+}
+
+
+
+
+
+
+.stuff-header {
+  font: 12px sans-serif;
+  margin-top: 5px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.stuff-header:before {
+  border-top: 2px solid #dfdfdf;
+  content:"";
+  margin: 0 auto; /* this centers the line to the full width specified */
+  position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+  top: 15px; left: 0; right: 0; bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+
+.stuff-header span { 
+  /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+  background: #fff; 
+  padding: 0 15px; 
+}
